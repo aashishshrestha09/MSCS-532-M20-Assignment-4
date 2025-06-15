@@ -1,10 +1,10 @@
 def merge_sort(arr: list) -> None:
     """
     In-place stable merge sort.
-    
+
     Sorts the input list `arr` by modifying it directly.
     Maintains the order of equal elements (stable).
-    
+
     Args:
         arr (list): The list to be sorted.
     """

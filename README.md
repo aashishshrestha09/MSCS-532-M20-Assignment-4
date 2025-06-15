@@ -38,13 +38,13 @@ This assignment aims to solidify your understanding of heap data structures, the
 │   ├── README.md
 │   ├── src
 │   │   ├── __init__.py
-│   │   └── priority_queue.py
+│   │   ├── priority_queue.py
+│   │   └── scheduler_simulation.py
 │   └── tests
 │       └── test_priority_queue.py
 ├── pyproject.toml
 ├── README.md
 └── src
-
 ```
 
 ## Components
@@ -64,13 +64,14 @@ This assignment aims to solidify your understanding of heap data structures, the
 - 📈 Graph images: [/heap_sort/img/](./heap_sort/img/)
 - 📖 [Summary of Findings](./heap_sort/README.md#summary-of-findings)
 
-### 📌 Priority Queue Implementation & Applications
+### Priority Queue Implementation & Applications
 
 - Developed a Priority Queue (binary heap) from scratch.
 - Implemented core operations:
   - `insert()`
-  - `extract_max()` / `extract_min()`
-  - `increase_key()` / `decrease_key()`
+  - `extract_max()`
+  - `increase_key()`
+  - `decrease_key()`
   - `is_empty()`
 - Designed a Task class to simulate a basic task scheduler.
 - Analyzed time complexity of all queue operations.
@@ -79,6 +80,11 @@ This assignment aims to solidify your understanding of heap data structures, the
 📂 Refer to: [/priority_queue/](./priority_queue/)
 
 ## Setup
+
+### Pre-requisites
+
+- Install [`python`](https://www.python.org/downloads/).
+- Install [`pip`](https://pip.pypa.io/en/stable/installation/).
 
 ### Clone the repository
 

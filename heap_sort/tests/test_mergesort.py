@@ -1,6 +1,7 @@
 import unittest
 from src.merge_sort import merge_sort
 
+
 class TestMergeSort(unittest.TestCase):
     def test_random(self):
         arr = [4, 2, 7, 1, 3]
@@ -22,6 +23,7 @@ class TestMergeSort(unittest.TestCase):
         arr = [42]
         merge_sort(arr)
         self.assertEqual(arr, [42])
+
 
 if __name__ == "__main__":
     unittest.main()

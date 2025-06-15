@@ -64,9 +64,12 @@ The implementation ensures:
 - Results are saved as CSV files (`outputs/`) and visualized as PNG plots (`img/`).
 - Heapsort is compared against Merge Sort and Quick Sort to observe practical performance differences and relate them to theoretical expectations.
 
-## Usage
-
 ## Setup
+
+### Pre-requisites
+
+- Install [`python`](https://www.python.org/downloads/).
+- Install [`pip`](https://pip.pypa.io/en/stable/installation/).
 
 ### Clone the repository
 
