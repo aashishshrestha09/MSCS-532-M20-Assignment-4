@@ -101,7 +101,7 @@ python3 -m venv .venv
 pip install --editable ".[dev]"
 ```
 
-### How to Run the Code
+## How to Run the Code
 
 ### Run Heapsort Benchmark
 
