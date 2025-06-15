@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assignment-4"
+version = "0.1.0"
+description = "Assignment 4: Heap Data Structures: Implementation, Analysis, and Applications."
+readme = "README.md"
+urls = {homepage = "https://github.com/aashishshrestha09/MSCS-532-M20-Assignment-4"}
+dependencies = [
+    "matplotlib==3.10.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["heap_sort", "priority_queue"]
+
+[project.optional-dependencies]
+dev = [
+  "black==24.3.0",
+  "pyflakes==3.2.0",
+]
