@@ -8,6 +8,7 @@ This assignment aims to solidify your understanding of heap data structures, the
 
 ```bash
 .
+├── Assignment 4.pdf      # Final report with analysis, figures, and results
 ├── heap_sort
 │   ├── img
 │   │   ├── sorting_performance_random.png
