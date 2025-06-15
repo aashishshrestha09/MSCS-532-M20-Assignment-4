@@ -1,5 +1,6 @@
 import random
 
+
 def quick_sort(arr):
     """
     In-place Quicksort with randomized pivot selection.

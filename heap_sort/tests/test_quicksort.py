@@ -1,6 +1,7 @@
 import unittest
 from src.quick_sort import quick_sort
 
+
 class TestQuickSort(unittest.TestCase):
     def test_random(self):
         arr = [4, 2, 7, 1, 3]
@@ -22,6 +23,7 @@ class TestQuickSort(unittest.TestCase):
         arr = [42]
         quick_sort(arr)
         self.assertEqual(arr, [42])
+
 
 if __name__ == "__main__":
     unittest.main()

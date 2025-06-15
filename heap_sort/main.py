@@ -3,6 +3,7 @@ import csv
 from src import merge_sort, quick_sort, heap_sort
 from utils import dataset_utils, metrics_utils, plot_utils, file_utils
 
+
 def main():
     """
     Benchmarks Heap Sort, Merge Sort, and Quick Sort on various dataset types and sizes.
@@ -57,7 +58,12 @@ def main():
         csv_filename = f"results_{dtype.lower()}.csv"
         try:
             file_utils.save_results_to_csv(
-                "outputs", csv_filename, dtype, dataset_sizes, results_time, results_memory
+                "outputs",
+                csv_filename,
+                dtype,
+                dataset_sizes,
+                results_time,
+                results_memory,
             )
             print(f"\nResults saved to outputs/{csv_filename}")
         except Exception as e:
@@ -73,6 +79,7 @@ def main():
             )
         except Exception as e:
             print(f"Failed to plot performance for {dtype}: {e}")
+
 
 if __name__ == "__main__":
     main()
